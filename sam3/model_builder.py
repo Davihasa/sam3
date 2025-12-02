@@ -7,7 +7,7 @@ import torch
 import torch.nn as nn
 from huggingface_hub import hf_hub_download
 from iopath.common.file_io import g_pathmgr
-from sam3.model.decoder import (
+from model.decoder import (
     TransformerDecoder,
     TransformerDecoderLayer,
     TransformerDecoderLayerv2,
